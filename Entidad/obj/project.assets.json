@@ -116,11 +116,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "c:\\Users\\dubam\\Downloads\\CarniceriaWeb-master\\Entidad\\Entidad.csproj",
+      "projectUniqueName": "C:\\Users\\dubam\\Downloads\\CarniceriaWeb-master\\Entidad\\Entidad.csproj",
       "projectName": "Entidad",
-      "projectPath": "c:\\Users\\dubam\\Downloads\\CarniceriaWeb-master\\Entidad\\Entidad.csproj",
+      "projectPath": "C:\\Users\\dubam\\Downloads\\CarniceriaWeb-master\\Entidad\\Entidad.csproj",
       "packagesPath": "C:\\Users\\dubam\\.nuget\\packages\\",
-      "outputPath": "c:\\Users\\dubam\\Downloads\\CarniceriaWeb-master\\Entidad\\obj\\",
+      "outputPath": "C:\\Users\\dubam\\Downloads\\CarniceriaWeb-master\\Entidad\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\dubam\\AppData\\Roaming\\NuGet\\NuGet.Config"

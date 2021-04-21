@@ -5736,11 +5736,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "c:\\Users\\dubam\\Downloads\\CarniceriaWeb-master\\api-movil\\api-movil.csproj",
+      "projectUniqueName": "C:\\Users\\dubam\\Downloads\\CarniceriaWeb-master\\api-movil\\api-movil.csproj",
       "projectName": "api-movil",
-      "projectPath": "c:\\Users\\dubam\\Downloads\\CarniceriaWeb-master\\api-movil\\api-movil.csproj",
+      "projectPath": "C:\\Users\\dubam\\Downloads\\CarniceriaWeb-master\\api-movil\\api-movil.csproj",
       "packagesPath": "C:\\Users\\dubam\\.nuget\\packages\\",
-      "outputPath": "c:\\Users\\dubam\\Downloads\\CarniceriaWeb-master\\api-movil\\obj\\",
+      "outputPath": "C:\\Users\\dubam\\Downloads\\CarniceriaWeb-master\\api-movil\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\dubam\\AppData\\Roaming\\NuGet\\NuGet.Config"

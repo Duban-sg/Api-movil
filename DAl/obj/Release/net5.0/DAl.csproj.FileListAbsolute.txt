@@ -1,0 +1,15 @@
+C:\Users\dubam\Downloads\CarniceriaWeb-master\DAl\bin\Release\net5.0\DAl.deps.json
+C:\Users\dubam\Downloads\CarniceriaWeb-master\DAl\bin\Release\net5.0\DAl.dll
+C:\Users\dubam\Downloads\CarniceriaWeb-master\DAl\bin\Release\net5.0\ref\DAl.dll
+C:\Users\dubam\Downloads\CarniceriaWeb-master\DAl\bin\Release\net5.0\DAl.pdb
+C:\Users\dubam\Downloads\CarniceriaWeb-master\DAl\bin\Release\net5.0\Entidad.dll
+C:\Users\dubam\Downloads\CarniceriaWeb-master\DAl\bin\Release\net5.0\Entidad.pdb
+C:\Users\dubam\Downloads\CarniceriaWeb-master\DAl\obj\Release\net5.0\DAl.csprojAssemblyReference.cache
+C:\Users\dubam\Downloads\CarniceriaWeb-master\DAl\obj\Release\net5.0\DAl.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\dubam\Downloads\CarniceriaWeb-master\DAl\obj\Release\net5.0\DAl.AssemblyInfoInputs.cache
+C:\Users\dubam\Downloads\CarniceriaWeb-master\DAl\obj\Release\net5.0\DAl.AssemblyInfo.cs
+C:\Users\dubam\Downloads\CarniceriaWeb-master\DAl\obj\Release\net5.0\DAl.csproj.CoreCompileInputs.cache
+C:\Users\dubam\Downloads\CarniceriaWeb-master\DAl\obj\Release\net5.0\DAl.csproj.CopyComplete
+C:\Users\dubam\Downloads\CarniceriaWeb-master\DAl\obj\Release\net5.0\DAl.dll
+C:\Users\dubam\Downloads\CarniceriaWeb-master\DAl\obj\Release\net5.0\ref\DAl.dll
+C:\Users\dubam\Downloads\CarniceriaWeb-master\DAl\obj\Release\net5.0\DAl.pdb

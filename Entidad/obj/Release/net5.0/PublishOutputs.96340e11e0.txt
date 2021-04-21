@@ -1,0 +1,3 @@
+C:\Users\dubam\Downloads\CarniceriaWeb-master\publish\Entidad.dll
+C:\Users\dubam\Downloads\CarniceriaWeb-master\publish\Entidad.deps.json
+C:\Users\dubam\Downloads\CarniceriaWeb-master\publish\Entidad.pdb

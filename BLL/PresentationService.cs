@@ -46,7 +46,7 @@ namespace BLL
             
         }
 
-        public ResponseAll<Presentation> AllProducts(){
+        public ResponseAll<Presentation> AllPresentations(){
 
             try
             {
@@ -62,7 +62,7 @@ namespace BLL
         }
 
         public ResponseAll<Presentation> SelectPresentations(List<string> Presentations_id){
-            var response = AllProducts();
+            var response = AllPresentations();
             if(response.List != null){
                 var Select = new List<Presentation>();
                 foreach (var item in response.List)

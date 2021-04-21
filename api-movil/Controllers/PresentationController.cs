@@ -48,5 +48,18 @@ namespace api_movil.Controllers
             
            return presentation;
         }
+
+        // GET: api/Presentation
+        [HttpGet]
+        public ActionResult<IEnumerable<PresentationViewModel>> Gets()
+        {
+            var response = _presentationService.AllPresentations(); 
+            if(response.Error){
+           
+                return BadRequest(response.Menssage);
+            }
+            var personas = response.List.Select(p => new PresentationViewModel(p));
+            return Ok(personas);
+        }
     }
 }
