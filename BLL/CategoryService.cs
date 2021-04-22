@@ -3,6 +3,7 @@ using DAl;
 using Entidad;
 using System.Collections.Generic;
 using System.Linq;
+using Microsoft.EntityFrameworkCore;
 
 namespace BLL
 {
@@ -34,7 +35,7 @@ namespace BLL
 
             try
             {
-                var _category = _context.Categories.Find(categoryId);
+                var _category = _context.Categories.Include(p=>p.Presentations).ToList().Where(p=>p.CategoryId==categoryId).FirstOrDefault();
                 if(_category == null)return new Response<Category>("No se encontro ninguna categoria");
                 return new Response<Category>(_category);
             }
@@ -42,6 +43,21 @@ namespace BLL
             {
                 
                 return new Response<Category>("Error:"+error);
+            }
+            
+        }
+
+        public ResponseAll<Category> AllCategories( ){
+
+            try
+            {
+                List<Category> Categories = _context.Categories.Include(p=>p.Presentations).ToList();
+                return new ResponseAll<Category>(Categories);
+            }
+            catch (System.Exception error)
+            {
+                
+                return new ResponseAll<Category>("Error:"+error);
             }
             
         }

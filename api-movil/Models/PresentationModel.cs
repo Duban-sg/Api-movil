@@ -26,8 +26,7 @@ namespace api_movil.Models
             PresentationId = presentation.PresentationId;
             Measure = presentation.Measure;
             NPresentation = presentation.NPresentation;
-            
-            
+               
         }
     }
 }

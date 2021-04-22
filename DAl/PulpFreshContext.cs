@@ -20,10 +20,7 @@ namespace DAl
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
-            modelBuilder.Entity<Product>()
-            .HasOne(p=>p.Category)
-            .WithOne(p=>p.Product)
-            .HasForeignKey<Product>(b => b.CategoryId);
+
 
             modelBuilder.Entity<Client>()
             .HasOne(p=>p.Person)

@@ -33,7 +33,7 @@ namespace api_movil.Controllers
         {
             Category category = MapearCategory(categoryInputModel);
             var response = _categoryService.save(category);
-            if(response.Error==false)return Ok(response.Object);
+            if(response.Error==false)return Ok(new CategoryViewModel(response.Object));
             else return BadRequest(response.Menssage);
         }
 
@@ -48,6 +48,19 @@ namespace api_movil.Controllers
             
             
            return category;
+        }
+
+        // GET: api/Category
+        [HttpGet]
+        public ActionResult<IEnumerable<CategoryViewModel>> Gets()
+        {
+            var response = _categoryService.AllCategories(); 
+            if(response.Error){
+           
+                return BadRequest(response.Menssage);
+            }
+            var personas = response.List.Select(p => new CategoryViewModel(p));
+            return Ok(personas);
         }
     }
 }

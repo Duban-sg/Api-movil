@@ -16,7 +16,7 @@ namespace Entidad
    
 
         //relacion
-        public Client Client { get; set; }
+        public virtual Client Client { get; set; }
 
 //         +Identificacion: String
 //         +Names: String

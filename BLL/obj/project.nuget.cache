@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "5iCBsSV0r632ubIF2QfaUlL2JLNB/MTQ1sZfPoyZw1SUIk2/fjzo9iPx7uAhdLUlcT6sw0mTy0sDf8BX6y8hng==",
+  "dgSpecHash": "VocWQhHonvMm0WOJ2O5DPSN4BeSWl1rVkvYpPqqCkRJMPWNmg83bsXXKg6yHarKmL3Qb8/EybuFvIRhp8Z7RAw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\dubam\\Downloads\\CarniceriaWeb-master\\BLL\\BLL.csproj",
+  "projectFilePath": "C:\\Users\\dubam\\Documents\\mobile\\Api-movil\\BLL\\BLL.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\dubam\\.nuget\\packages\\microsoft.csharp\\4.5.0\\microsoft.csharp.4.5.0.nupkg.sha512",
     "C:\\Users\\dubam\\.nuget\\packages\\microsoft.data.sqlclient\\2.0.1\\microsoft.data.sqlclient.2.0.1.nupkg.sha512",

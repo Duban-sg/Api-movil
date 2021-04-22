@@ -23,7 +23,7 @@ namespace api_movil.Models
 
     public class ProductViewModel : ProductInputModel {
 
-        public Category Category { get; set; }
+        public CategoryViewModel Category { get; set; }
         public int ProductId { get; set; }
         public ProductViewModel  (){}
         public ProductViewModel (Product product){
@@ -31,7 +31,7 @@ namespace api_movil.Models
             ProductId = product.ProductId;
             Name = product.Name;
             Unit_Price = product.Unit_Price;
-            Category = product.Category;
+            Category = new CategoryViewModel(product.Category);
             QuantityStock = product.QuantityStock;
             State = product.State;
             

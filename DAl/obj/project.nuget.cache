@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "uBqiWQGETi3KhiEW5ZlkEeARAX3CZE90yL8qk1V8A27OHKk5skbIzG1/4wbr+BRPhO2iy3BxaIl9d7XI6hrduw==",
+  "dgSpecHash": "orf5EUm4nfCrZk4REBbLBknwAvyERW0RbzVlDcNe5/V89LlKuHN8hYhW/e2YYFGsYLubztmvUdGnqR6IpTNQdQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\dubam\\Downloads\\CarniceriaWeb-master\\DAl\\DAl.csproj",
+  "projectFilePath": "C:\\Users\\dubam\\Documents\\mobile\\Api-movil\\DAl\\DAl.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\dubam\\.nuget\\packages\\microsoft.csharp\\4.5.0\\microsoft.csharp.4.5.0.nupkg.sha512",
     "C:\\Users\\dubam\\.nuget\\packages\\microsoft.data.sqlclient\\2.0.1\\microsoft.data.sqlclient.2.0.1.nupkg.sha512",

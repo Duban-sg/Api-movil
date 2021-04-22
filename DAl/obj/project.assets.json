@@ -5727,11 +5727,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\dubam\\Downloads\\CarniceriaWeb-master\\DAl\\DAl.csproj",
+      "projectUniqueName": "C:\\Users\\dubam\\Documents\\mobile\\Api-movil\\DAl\\DAl.csproj",
       "projectName": "DAl",
-      "projectPath": "C:\\Users\\dubam\\Downloads\\CarniceriaWeb-master\\DAl\\DAl.csproj",
+      "projectPath": "C:\\Users\\dubam\\Documents\\mobile\\Api-movil\\DAl\\DAl.csproj",
       "packagesPath": "C:\\Users\\dubam\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\dubam\\Downloads\\CarniceriaWeb-master\\DAl\\obj\\",
+      "outputPath": "C:\\Users\\dubam\\Documents\\mobile\\Api-movil\\DAl\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\dubam\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -5746,8 +5746,8 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "projectReferences": {
-            "C:\\Users\\dubam\\Downloads\\CarniceriaWeb-master\\Entidad\\Entidad.csproj": {
-              "projectPath": "C:\\Users\\dubam\\Downloads\\CarniceriaWeb-master\\Entidad\\Entidad.csproj"
+            "C:\\Users\\dubam\\Documents\\mobile\\Api-movil\\Entidad\\Entidad.csproj": {
+              "projectPath": "C:\\Users\\dubam\\Documents\\mobile\\Api-movil\\Entidad\\Entidad.csproj"
             }
           }
         }

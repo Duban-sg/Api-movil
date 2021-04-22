@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "iimAb5LfBnOhbFzHQntAVd023pEYIZIYfNpH1zyr2aGbEA/gyD42H7knNloBd4FfvMqqJWybMeLPnJ9uOGetyA==",
+  "dgSpecHash": "iglI3GkoCc8BIMHr+d/EG/NGWXB6WYT0Ur0xTYylyjraeLIdFqC8me9Yic5HJpVZy4WYPqJj4AoMAiadXA+6lA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\dubam\\Downloads\\CarniceriaWeb-master\\Entidad\\Entidad.csproj",
+  "projectFilePath": "C:\\Users\\dubam\\Documents\\mobile\\Api-movil\\Entidad\\Entidad.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\dubam\\.nuget\\packages\\system.componentmodel.annotations\\5.0.0\\system.componentmodel.annotations.5.0.0.nupkg.sha512"
   ],

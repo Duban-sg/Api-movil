@@ -33,7 +33,7 @@ namespace api_movil.Controllers
         {
             Product producto = MapearProducto(productoInputModel);
             var response = _productService.save(producto);
-            if(response.Error==false)return Ok(response.Object);
+            if(response.Error==false)return Ok(new ProductViewModel(response.Object));
             else return BadRequest(response.Menssage);
 
         }
@@ -45,11 +45,11 @@ namespace api_movil.Controllers
             
                 Name = productoInputModel.Name,
                 Unit_Price = productoInputModel.Unit_Price,
-                Category = _CategoryService.Find(int.Parse(productoInputModel.CategoryId)).Object,
                 QuantityStock = productoInputModel.QuantityStock,
                 State = productoInputModel.State,
 
             };
+            if(_CategoryService.Find(int.Parse(productoInputModel.CategoryId)).Object!=null) product.CategoryId = int.Parse(productoInputModel.CategoryId);
             
             
             return product;

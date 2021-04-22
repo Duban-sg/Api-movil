@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "uCi8FZxC2ntThvx3aNQQQ4v72dYZJJdZseFmcPqAQqP+D+PoqnkxPR/WPDPGMx8Lhy3SDzNsrUjXw0i6f1piEg==",
+  "dgSpecHash": "uIiodjrKz5bH0Pk5ZDeA/gTJQ49DFH5gp0yU6wxoJwdlkNt0ve/P7gIKKXrFcRs+NYuDEJoG3gOGGfoJI5da/w==",
   "success": true,
-  "projectFilePath": "C:\\Users\\dubam\\Downloads\\CarniceriaWeb-master\\api-movil\\api-movil.csproj",
+  "projectFilePath": "C:\\Users\\dubam\\Documents\\mobile\\Api-movil\\api-movil\\api-movil.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\dubam\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\dubam\\.nuget\\packages\\microsoft.aspnetcore.jsonpatch\\3.0.0\\microsoft.aspnetcore.jsonpatch.3.0.0.nupkg.sha512",

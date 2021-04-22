@@ -10,7 +10,7 @@ namespace Entidad
         public int ClientId { get; set; }
         public Person Person { get; set; }
         public String Address { get; set; }
-        public String Ciry { get; set; }
+        public String City { get; set; }
         public String Department { get; set; }
         public String Neighborhood { get; set; }
 

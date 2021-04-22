@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\dubam\\Downloads\\CarniceriaWeb-master\\api-movil\\api-movil.csproj": {}
+    "C:\\Users\\dubam\\Documents\\mobile\\Api-movil\\api-movil\\api-movil.csproj": {}
   },
   "projects": {
-    "C:\\Users\\dubam\\Downloads\\CarniceriaWeb-master\\api-movil\\api-movil.csproj": {
+    "C:\\Users\\dubam\\Documents\\mobile\\Api-movil\\api-movil\\api-movil.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\dubam\\Downloads\\CarniceriaWeb-master\\api-movil\\api-movil.csproj",
+        "projectUniqueName": "C:\\Users\\dubam\\Documents\\mobile\\Api-movil\\api-movil\\api-movil.csproj",
         "projectName": "api-movil",
-        "projectPath": "C:\\Users\\dubam\\Downloads\\CarniceriaWeb-master\\api-movil\\api-movil.csproj",
+        "projectPath": "C:\\Users\\dubam\\Documents\\mobile\\Api-movil\\api-movil\\api-movil.csproj",
         "packagesPath": "C:\\Users\\dubam\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\dubam\\Downloads\\CarniceriaWeb-master\\api-movil\\obj\\",
+        "outputPath": "C:\\Users\\dubam\\Documents\\mobile\\Api-movil\\api-movil\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\dubam\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -26,14 +26,14 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "C:\\Users\\dubam\\Downloads\\CarniceriaWeb-master\\BLL\\BLL.csproj": {
-                "projectPath": "C:\\Users\\dubam\\Downloads\\CarniceriaWeb-master\\BLL\\BLL.csproj"
+              "C:\\Users\\dubam\\Documents\\mobile\\Api-movil\\BLL\\BLL.csproj": {
+                "projectPath": "C:\\Users\\dubam\\Documents\\mobile\\Api-movil\\BLL\\BLL.csproj"
               },
-              "C:\\Users\\dubam\\Downloads\\CarniceriaWeb-master\\DAl\\DAl.csproj": {
-                "projectPath": "C:\\Users\\dubam\\Downloads\\CarniceriaWeb-master\\DAl\\DAl.csproj"
+              "C:\\Users\\dubam\\Documents\\mobile\\Api-movil\\DAl\\DAl.csproj": {
+                "projectPath": "C:\\Users\\dubam\\Documents\\mobile\\Api-movil\\DAl\\DAl.csproj"
               },
-              "C:\\Users\\dubam\\Downloads\\CarniceriaWeb-master\\Entidad\\Entidad.csproj": {
-                "projectPath": "C:\\Users\\dubam\\Downloads\\CarniceriaWeb-master\\Entidad\\Entidad.csproj"
+              "C:\\Users\\dubam\\Documents\\mobile\\Api-movil\\Entidad\\Entidad.csproj": {
+                "projectPath": "C:\\Users\\dubam\\Documents\\mobile\\Api-movil\\Entidad\\Entidad.csproj"
               }
             }
           }
@@ -85,14 +85,14 @@
         }
       }
     },
-    "C:\\Users\\dubam\\Downloads\\CarniceriaWeb-master\\BLL\\BLL.csproj": {
+    "C:\\Users\\dubam\\Documents\\mobile\\Api-movil\\BLL\\BLL.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\dubam\\Downloads\\CarniceriaWeb-master\\BLL\\BLL.csproj",
+        "projectUniqueName": "C:\\Users\\dubam\\Documents\\mobile\\Api-movil\\BLL\\BLL.csproj",
         "projectName": "BLL",
-        "projectPath": "C:\\Users\\dubam\\Downloads\\CarniceriaWeb-master\\BLL\\BLL.csproj",
+        "projectPath": "C:\\Users\\dubam\\Documents\\mobile\\Api-movil\\BLL\\BLL.csproj",
         "packagesPath": "C:\\Users\\dubam\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\dubam\\Downloads\\CarniceriaWeb-master\\BLL\\obj\\",
+        "outputPath": "C:\\Users\\dubam\\Documents\\mobile\\Api-movil\\BLL\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\dubam\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -107,11 +107,11 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "C:\\Users\\dubam\\Downloads\\CarniceriaWeb-master\\DAl\\DAl.csproj": {
-                "projectPath": "C:\\Users\\dubam\\Downloads\\CarniceriaWeb-master\\DAl\\DAl.csproj"
+              "C:\\Users\\dubam\\Documents\\mobile\\Api-movil\\DAl\\DAl.csproj": {
+                "projectPath": "C:\\Users\\dubam\\Documents\\mobile\\Api-movil\\DAl\\DAl.csproj"
               },
-              "C:\\Users\\dubam\\Downloads\\CarniceriaWeb-master\\Entidad\\Entidad.csproj": {
-                "projectPath": "C:\\Users\\dubam\\Downloads\\CarniceriaWeb-master\\Entidad\\Entidad.csproj"
+              "C:\\Users\\dubam\\Documents\\mobile\\Api-movil\\Entidad\\Entidad.csproj": {
+                "projectPath": "C:\\Users\\dubam\\Documents\\mobile\\Api-movil\\Entidad\\Entidad.csproj"
               }
             }
           }
@@ -144,14 +144,14 @@
         }
       }
     },
-    "C:\\Users\\dubam\\Downloads\\CarniceriaWeb-master\\DAl\\DAl.csproj": {
+    "C:\\Users\\dubam\\Documents\\mobile\\Api-movil\\DAl\\DAl.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\dubam\\Downloads\\CarniceriaWeb-master\\DAl\\DAl.csproj",
+        "projectUniqueName": "C:\\Users\\dubam\\Documents\\mobile\\Api-movil\\DAl\\DAl.csproj",
         "projectName": "DAl",
-        "projectPath": "C:\\Users\\dubam\\Downloads\\CarniceriaWeb-master\\DAl\\DAl.csproj",
+        "projectPath": "C:\\Users\\dubam\\Documents\\mobile\\Api-movil\\DAl\\DAl.csproj",
         "packagesPath": "C:\\Users\\dubam\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\dubam\\Downloads\\CarniceriaWeb-master\\DAl\\obj\\",
+        "outputPath": "C:\\Users\\dubam\\Documents\\mobile\\Api-movil\\DAl\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\dubam\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -166,8 +166,8 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "C:\\Users\\dubam\\Downloads\\CarniceriaWeb-master\\Entidad\\Entidad.csproj": {
-                "projectPath": "C:\\Users\\dubam\\Downloads\\CarniceriaWeb-master\\Entidad\\Entidad.csproj"
+              "C:\\Users\\dubam\\Documents\\mobile\\Api-movil\\Entidad\\Entidad.csproj": {
+                "projectPath": "C:\\Users\\dubam\\Documents\\mobile\\Api-movil\\Entidad\\Entidad.csproj"
               }
             }
           }
@@ -214,14 +214,14 @@
         }
       }
     },
-    "C:\\Users\\dubam\\Downloads\\CarniceriaWeb-master\\Entidad\\Entidad.csproj": {
+    "C:\\Users\\dubam\\Documents\\mobile\\Api-movil\\Entidad\\Entidad.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\dubam\\Downloads\\CarniceriaWeb-master\\Entidad\\Entidad.csproj",
+        "projectUniqueName": "C:\\Users\\dubam\\Documents\\mobile\\Api-movil\\Entidad\\Entidad.csproj",
         "projectName": "Entidad",
-        "projectPath": "C:\\Users\\dubam\\Downloads\\CarniceriaWeb-master\\Entidad\\Entidad.csproj",
+        "projectPath": "C:\\Users\\dubam\\Documents\\mobile\\Api-movil\\Entidad\\Entidad.csproj",
         "packagesPath": "C:\\Users\\dubam\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\dubam\\Downloads\\CarniceriaWeb-master\\Entidad\\obj\\",
+        "outputPath": "C:\\Users\\dubam\\Documents\\mobile\\Api-movil\\Entidad\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\dubam\\AppData\\Roaming\\NuGet\\NuGet.Config"

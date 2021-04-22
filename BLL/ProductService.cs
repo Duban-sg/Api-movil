@@ -3,6 +3,7 @@ using DAl;
 using Entidad;
 using System.Collections.Generic;
 using System.Linq;
+using Microsoft.EntityFrameworkCore;
 
 namespace BLL
 {
@@ -34,7 +35,7 @@ namespace BLL
 
             try
             {
-                List<Product> procts = _context.Products.ToList();
+                List<Product> procts = _context.Products.Include(p=>p.Category).ToList();
                 return new ResponseAll<Product>(procts);
             }
             catch (System.Exception error)
