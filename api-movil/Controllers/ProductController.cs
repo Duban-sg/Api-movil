@@ -46,13 +46,26 @@ namespace api_movil.Controllers
                 Name = productoInputModel.Name,
                 Unit_Price = productoInputModel.Unit_Price,
                 QuantityStock = productoInputModel.QuantityStock,
-                State = productoInputModel.State,
+                Category = _CategoryService.Find(int.Parse(productoInputModel.CategoryId)).Object
 
             };
-            if(_CategoryService.Find(int.Parse(productoInputModel.CategoryId)).Object!=null) product.CategoryId = int.Parse(productoInputModel.CategoryId);
+            
             
             
             return product;
+        }
+
+        // GET: api/Producto
+        [HttpGet]
+        public ActionResult<IEnumerable<ProductViewModel>> Gets()
+        {
+            var response = _productService.AllProducts(); 
+            if(response.Error){
+           
+                return BadRequest(response.Menssage);
+            }
+            var products = response.List.Select(p => new ProductViewModel(p));
+            return Ok(products);
         }
     }
 }

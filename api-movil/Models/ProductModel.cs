@@ -16,12 +16,14 @@ namespace api_movil.Models
         public decimal Unit_Price { get; set; }
         public String CategoryId { get; set; }
         public int QuantityStock  { get; set; }
-        public String State { get; set; }
+        
+        
 
          
     }
 
     public class ProductViewModel : ProductInputModel {
+        public String State { get; set; }
 
         public CategoryViewModel Category { get; set; }
         public int ProductId { get; set; }

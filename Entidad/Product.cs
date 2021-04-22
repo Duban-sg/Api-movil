@@ -13,18 +13,9 @@ namespace Entidad
         public int QuantityStock  { get; set; }
         public String State { get; set; }
 
-         //Relacion
-         [ForeignKey("Category")]
-         public int CategoryId { get; set; }
-         public Category Category { get; set; }
+        public Category Category { get; set; }
 
 
 
-//         +IdProdut:int
-//         +Name:String
-//         +Unit_price:Decimal
-//         +Category:Category
-//         +QuantityStock:int
-//         +State:String
     }
 }

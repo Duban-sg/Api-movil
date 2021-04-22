@@ -10,8 +10,10 @@ namespace BLL
     public class ProductService{
 
         private readonly PulpFreshContext _context;
+        private readonly CategoryService _categoryService;
         public ProductService(PulpFreshContext context){
             _context = context;
+            _categoryService = new CategoryService(context);
         }
 
 
@@ -19,7 +21,7 @@ namespace BLL
 
             try
             {
-                
+                product.State = "Disponible";
                 _context.Products.Add(product);
                 _context.SaveChanges();
                 return new Response<Product>(product);
@@ -36,7 +38,15 @@ namespace BLL
             try
             {
                 List<Product> procts = _context.Products.Include(p=>p.Category).ToList();
-                return new ResponseAll<Product>(procts);
+                var ListUpdate = new List<Product>();
+                foreach (var item in procts)
+                {
+                    item.Category = _context.Categories.Include(p=>p.Presentations)
+                        .Where(p=>p.CategoryId==item.Category.CategoryId).FirstOrDefault();
+                    ListUpdate.Add(item);
+                }
+
+                return new ResponseAll<Product>(ListUpdate);
             }
             catch (System.Exception error)
             {

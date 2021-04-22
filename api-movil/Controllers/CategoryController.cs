@@ -59,8 +59,8 @@ namespace api_movil.Controllers
            
                 return BadRequest(response.Menssage);
             }
-            var personas = response.List.Select(p => new CategoryViewModel(p));
-            return Ok(personas);
+            var categories = response.List.Select(p => new CategoryViewModel(p));
+            return Ok(categories);
         }
     }
 }
