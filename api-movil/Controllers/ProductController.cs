@@ -18,12 +18,14 @@ namespace api_movil.Controllers
     {
         private readonly ProductService _productService;
         private readonly CategoryService _CategoryService;
+        private readonly PresentationService _PresentationService;
 
         
         public ProductoController( PulpFreshContext _context)
         {
             _productService = new ProductService(_context);
             _CategoryService = new CategoryService(_context);
+            _PresentationService = new PresentationService (_context);
         }
 
 
@@ -46,7 +48,8 @@ namespace api_movil.Controllers
                 Name = productoInputModel.Name,
                 Unit_Price = productoInputModel.Unit_Price,
                 QuantityStock = productoInputModel.QuantityStock,
-                Category = _CategoryService.Find(int.Parse(productoInputModel.CategoryId)).Object
+                Category = _CategoryService.Find(int.Parse(productoInputModel.CategoryId)).Object,
+                Presentations = _PresentationService.SelectPresentations(productoInputModel.PresentationsIds).List,
 
             };
             

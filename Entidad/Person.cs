@@ -13,10 +13,12 @@ namespace Entidad
         public String Phone { get; set; }
         public String  E_mail { get; set; }
         public String Password { get; set; }
+
    
 
         //relacion
         public virtual Client Client { get; set; }
+        public virtual bool Status { get; set; }
 
 //         +Identificacion: String
 //         +Names: String

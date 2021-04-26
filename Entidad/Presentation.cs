@@ -13,7 +13,7 @@ namespace Entidad
         public String NPresentation { get; set; }
 
         //realcion
-        public virtual List<Category> Categories { get; set; }
+        public virtual List<Product> Products { get; set; }
 
 
     }

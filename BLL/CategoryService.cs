@@ -35,7 +35,7 @@ namespace BLL
 
             try
             {
-                var _category = _context.Categories.Include(p=>p.Presentations).ToList().Where(p=>p.CategoryId==categoryId).FirstOrDefault();
+                var _category = _context.Categories.Where(p=>p.CategoryId==categoryId).FirstOrDefault();
                 if(_category == null)return new Response<Category>("No se encontro ninguna categoria");
                 return new Response<Category>(_category);
             }
@@ -51,7 +51,7 @@ namespace BLL
 
             try
             {
-                List<Category> Categories = _context.Categories.Include(p=>p.Presentations).ToList();
+                List<Category> Categories = _context.Categories.ToList();
                 return new ResponseAll<Category>(Categories);
             }
             catch (System.Exception error)

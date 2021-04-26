@@ -17,13 +17,13 @@ namespace api_movil.Controllers
     public class CateogryController : ControllerBase
     {
         private readonly CategoryService _categoryService;
-        private readonly PresentationService _PresentationService;
+
 
         
         public CateogryController( PulpFreshContext _context)
         {
             _categoryService = new CategoryService(_context);
-            _PresentationService = new PresentationService (_context);
+            
         }
 
 
@@ -42,7 +42,6 @@ namespace api_movil.Controllers
            var category = new Category
            {
             Name = categoryInputModel.Name,
-            Presentations = _PresentationService.SelectPresentations(categoryInputModel.PresentationsIds).List,
 
            };
             

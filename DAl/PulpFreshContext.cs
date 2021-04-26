@@ -28,10 +28,10 @@ namespace DAl
             .HasForeignKey<Client>(p => p.Identificacion);
 
 
-            modelBuilder.Entity<Category>()
+            modelBuilder.Entity<Product>()
             .HasMany(p=>p.Presentations)
-            .WithMany(p=>p.Categories)
-            .UsingEntity(j => j.ToTable("CategoriesPresentations"));
+            .WithMany(p=>p.Products)
+            .UsingEntity(j => j.ToTable("ProductPresentations"));
 
 
         }

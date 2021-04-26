@@ -1,4 +1,5 @@
 using System;
+using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 
@@ -12,6 +13,7 @@ namespace Entidad
         public decimal Unit_Price { get; set; }
         public int QuantityStock  { get; set; }
         public String State { get; set; }
+        public List<Presentation> Presentations { get; set; }
 
         public Category Category { get; set; }
 

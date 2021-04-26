@@ -19,21 +19,6 @@ namespace api_movil.Migrations
                 .HasAnnotation("ProductVersion", "5.0.5")
                 .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
 
-            modelBuilder.Entity("CategoryPresentation", b =>
-                {
-                    b.Property<int>("CategoriesCategoryId")
-                        .HasColumnType("int");
-
-                    b.Property<int>("PresentationsPresentationId")
-                        .HasColumnType("int");
-
-                    b.HasKey("CategoriesCategoryId", "PresentationsPresentationId");
-
-                    b.HasIndex("PresentationsPresentationId");
-
-                    b.ToTable("CategoriesPresentations");
-                });
-
             modelBuilder.Entity("Entidad.Category", b =>
                 {
                     b.Property<int>("CategoryId")
@@ -100,6 +85,9 @@ namespace api_movil.Migrations
                     b.Property<string>("Phone")
                         .HasColumnType("nvarchar(max)");
 
+                    b.Property<bool>("Status")
+                        .HasColumnType("bit");
+
                     b.HasKey("Identificacion");
 
                     b.ToTable("Persons");
@@ -152,19 +140,19 @@ namespace api_movil.Migrations
                     b.ToTable("Products");
                 });
 
-            modelBuilder.Entity("CategoryPresentation", b =>
+            modelBuilder.Entity("PresentationProduct", b =>
                 {
-                    b.HasOne("Entidad.Category", null)
-                        .WithMany()
-                        .HasForeignKey("CategoriesCategoryId")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
+                    b.Property<int>("PresentationsPresentationId")
+                        .HasColumnType("int");
 
-                    b.HasOne("Entidad.Presentation", null)
-                        .WithMany()
-                        .HasForeignKey("PresentationsPresentationId")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
+                    b.Property<int>("ProductsProductId")
+                        .HasColumnType("int");
+
+                    b.HasKey("PresentationsPresentationId", "ProductsProductId");
+
+                    b.HasIndex("ProductsProductId");
+
+                    b.ToTable("ProductPresentations");
                 });
 
             modelBuilder.Entity("Entidad.Client", b =>
@@ -183,6 +171,21 @@ namespace api_movil.Migrations
                         .HasForeignKey("CategoryId");
 
                     b.Navigation("Category");
+                });
+
+            modelBuilder.Entity("PresentationProduct", b =>
+                {
+                    b.HasOne("Entidad.Presentation", null)
+                        .WithMany()
+                        .HasForeignKey("PresentationsPresentationId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.HasOne("Entidad.Product", null)
+                        .WithMany()
+                        .HasForeignKey("ProductsProductId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
                 });
 
             modelBuilder.Entity("Entidad.Person", b =>

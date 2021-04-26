@@ -16,6 +16,7 @@ namespace api_movil.Models
         public decimal Unit_Price { get; set; }
         public String CategoryId { get; set; }
         public int QuantityStock  { get; set; }
+        public List<String> PresentationsIds { get; set; }
         
         
 
@@ -26,6 +27,7 @@ namespace api_movil.Models
         public String State { get; set; }
 
         public CategoryViewModel Category { get; set; }
+        public List<PresentationViewModel> Presentations { get; set; }
         public int ProductId { get; set; }
         public ProductViewModel  (){}
         public ProductViewModel (Product product){
@@ -35,6 +37,7 @@ namespace api_movil.Models
             Unit_Price = product.Unit_Price;
             Category = new CategoryViewModel(product.Category);
             QuantityStock = product.QuantityStock;
+            Presentations =  product.Presentations.Select(p=> new PresentationViewModel(p)).ToList();
             State = product.State;
             
         }

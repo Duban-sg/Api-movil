@@ -14,7 +14,7 @@ namespace api_movil.Models
 
         
         public String Name { get; set; }
-        public List<String> PresentationsIds { get; set; }
+        
  
 
          
@@ -23,12 +23,11 @@ namespace api_movil.Models
     public class CategoryViewModel : CategoryInputModel {
 
         public int CategoryId { get; set; }
-        public List<PresentationViewModel> Presentations { get; set; }
+        
         public CategoryViewModel  (){}
         public CategoryViewModel (Category category){
             CategoryId = category.CategoryId;
             Name = category.Name;
-            Presentations =  category.Presentations.Select(p=> new PresentationViewModel(p)).ToList();
             
         }
     }

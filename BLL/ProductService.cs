@@ -37,16 +37,9 @@ namespace BLL
 
             try
             {
-                List<Product> procts = _context.Products.Include(p=>p.Category).ToList();
-                var ListUpdate = new List<Product>();
-                foreach (var item in procts)
-                {
-                    item.Category = _context.Categories.Include(p=>p.Presentations)
-                        .Where(p=>p.CategoryId==item.Category.CategoryId).FirstOrDefault();
-                    ListUpdate.Add(item);
-                }
-
-                return new ResponseAll<Product>(ListUpdate);
+                List<Product> procts = _context.Products.Include(p=>p.Presentations).Include(b=>b.Category).ToList();
+                if(procts[1].Presentations!=null) Console.WriteLine("si tiene");
+                return new ResponseAll<Product>(procts);
             }
             catch (System.Exception error)
             {
