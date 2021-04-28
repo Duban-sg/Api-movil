@@ -1,8 +1,15 @@
 C:\Users\dubam\Documents\mobile\Api-movil\api-movil\publish\api-movil.exe
+C:\Users\dubam\Documents\mobile\Api-movil\api-movil\publish\publish\web.config
 C:\Users\dubam\Documents\mobile\Api-movil\api-movil\publish\appsettings.Development.json
 C:\Users\dubam\Documents\mobile\Api-movil\api-movil\publish\appsettings.json
 C:\Users\dubam\Documents\mobile\Api-movil\api-movil\publish\database.rules.json
 C:\Users\dubam\Documents\mobile\Api-movil\api-movil\publish\firebase.json
+C:\Users\dubam\Documents\mobile\Api-movil\api-movil\publish\publish\api-movil.deps.json
+C:\Users\dubam\Documents\mobile\Api-movil\api-movil\publish\publish\api-movil.runtimeconfig.json
+C:\Users\dubam\Documents\mobile\Api-movil\api-movil\publish\publish\appsettings.Development.json
+C:\Users\dubam\Documents\mobile\Api-movil\api-movil\publish\publish\appsettings.json
+C:\Users\dubam\Documents\mobile\Api-movil\api-movil\publish\publish\database.rules.json
+C:\Users\dubam\Documents\mobile\Api-movil\api-movil\publish\publish\firebase.json
 C:\Users\dubam\Documents\mobile\Api-movil\api-movil\publish\api-movil.dll
 C:\Users\dubam\Documents\mobile\Api-movil\api-movil\publish\api-movil.runtimeconfig.json
 C:\Users\dubam\Documents\mobile\Api-movil\api-movil\publish\api-movil.pdb
